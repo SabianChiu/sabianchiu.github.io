@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sabian Chiu's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Sabian Chiu</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://sabianchiu.github.io/#engineeringprojects">Back to Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="ballmodel">
+            <div class="w-100">
+                <h2 class="mb-5">Brain Reading Drink Dispenser</h2>
+
+                <div class="subheading mb-3">The Goal</div>
+                With a team of three other students, our goal was to design and build a "futuristic" vending machine that would take user electroencephalogram (EEG) readings and dispense a cocktail with the mix concentration
+                determined by the level of user concentration. We built this machine from scratch to participate in the UBC E-Week 2020 Ball Model competition, where departments compete by creating projects that best represent their engineering discipline...
+                while somehow incorporating alcohol. 
+                <br /><br />
+                
+                <img src="img/ballmodel/front.jpg" width="500" height="300" class="rotate90"/>
+
+                <div class="subheading mb-3">Functionality</div>
+                This machine uses a <a href="http://choosemuse.com/">Muse</a> EEG device that detects the electrical activity in the user's brain and analyzes the user's level of concentration. This data is fed into an Arduino processor, 
+                which is programmed to take the numerical average of the EEG readings over a period of ten seconds, and use that to calculate the type and amount of mixer to add to a preset amount (1oz) of liquor. Using a 4:1 ratio of liquor-to-mixer
+                as the lower limit of mixer dispensed, the greater concentration the user exhibits, the greater the amount of mixer that is dispensed and mixed into the liquor. Connected to the Arduino board output pins are five servo motors we purchased 
+                from a local electronics store. This servo has been mounted to the bottom of an internal panel just below the display box that essentially pinches tubes (from the IV bags storing the drinks) at their default position and rotates to un-pinch
+                the tubes to allow for fluid flow by gravity.
+
+                <br /><br />
+
+                <div class="subheading mb-3">Workflow</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Object Oriented Programming, Data Structures and Algorithms
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Software: Python, Java, C, HTML5
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Hardware: VHSIC-HDL on FPGA
+                    </li>
+                </ul>
+                <br />
+                <div class="subheading mb-3">Projects</div>
+                <u1>
+                    <li>Blackjack Game with Python</li>
+                    <li>Tic Tac Toe Game with Python</li>
+                    <li>Optical Character Recognition Android implementation with Firebase Machine Learning Kit</li>
+                    <li>Spatial Analysis for HC-SR04 ultrasonic distance sensor with open-source Arduino library</li>
+                    <li>Autonomous Line Following Robot with Arduino</li>
+                    <li>LCD Alarm Clock Microcontroller with 8051 Assembly Language</li>
+                    <li>Simon's Game with C and DAQ Simulator</li>
+                </u1>
+
+
+
+            </div>
+
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="engineeringprojects">
+            <div class="w-100">
+                <h2 class="mb-5">Engineering Projects</h2>
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Exoskeletal Knee Augmentation System</h3>
+                        <div class="subheading mb-3">Systems Integration Engineer</div>
+                        <p>
+                            <ul>
+                                <li>Collaborating with 5 members to design, prototype, and build a powered knee exoskeleton for performance enhancement</li>
+                                <li>Prototyped a geared continuous hinge with four-point leverage system and force-damping mechanism to provide stability to the joint and protect ACL and MCL instabilities</li>
+                                <li>Performed sensitivity analysis and optimization studies to evaluate and select torque actuation methods</li>
+                                <li>Applied Root-Cause Analysis and Failure Mode and Effects Analysis methods to identify risks and apply appropriate testing procedures to mitigate risk</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">September 2019 - Present</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">UBC AeroDesign - Advanced Airfoils</h3>
+                        <div class="subheading mb-3">Team Member</div>
+                        <p>
+                            <ul>
+                                <li>Performed airfoil analysis using XFLR5 software to evaluate drag polar and select an optimal airfoil based on design requirements</li>
+                                <li>Carried out structural analysis to design wing structure</li>
+                                <li>Created 3D parts and assemblies of wing structures to apply Finite Element Analysis analysis on structural components using SolidWorks</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">September 2019 - Present</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">UBC AeroDesign - Propulsions</h3>
+                        <div class="subheading mb-3">Team Lead</div>
+                        <p>
+                            <ul>
+                                <li>Led a team to test and select the propulsions sytem of a fixed-wing aircraft optimized to carry the most weight and drop payload in competition</li>
+                                <li>Increased torque output of previous designs by 7%</li>
+                                <li>
+                                    Supervised dynamic wind tunnel motor testing and data analysis via RC Benchmark and Microsoft Excel, tested and implemented auto-pilot and stabilizer system using ArduPilot APMPlanner and PixHawk,
+                                    modeled equilibrium RPM and torque curves using MATLAB
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">December 2018 - May 2019</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">EYE5 Visual Assistive Device</h3>
+                        <div class="subheading mb-3">Project Team Lead</div>
+                        <p>
+                            <ul>
+                                <li>Coordinated with 5 members to design and prototype a wearable device that utilizes sensors and optical recognition to deliver environmental feedback to users with impaired vision</li>
+                                <li>Implemented open-source text-recognition software and machine vision, and developed a smartphone app to handle information processing and user interfacing</li>
+                                <li>Integrated spatial recognition technologies using LiDAR, RADAR, and camera with Arduino processor</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">December 2018 - May 2019</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Arduino Line Following Robot</h3>
+                        <div class="subheading mb-3">Personal Project</div>
+                        <p>
+                            <ul>
+                                <li>Designed, built, and tested an autonomous line-following robot that uses LiDAR sensors to relay information back to an Arduino unit.</li>
+                                <li>Soldered, and debugged Arduino-sensor circuitry</li>
+                                <li>Constructed robot chassis using standard shop tools</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">September 2018 - December 2018</span>
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+    </div>
+    </section>
+
+    <hr class="m-0">
+    <!--
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Google Analytics Certified Developer</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Mobile Web Specialist - Google Certification</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2<sup>nd</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - James Buchanan High School - Hackathon 2006</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            3<sup>rd</sup>
+            Place - James Buchanan High School - Hackathon 2005</li>
+        </ul>
+      </div>
+    </section>
+    -->
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
